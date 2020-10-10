@@ -1,4 +1,3 @@
-# Author: Dada Liu (劉永琦)
 import folium
 import pandas as pd
 from folium import plugins
