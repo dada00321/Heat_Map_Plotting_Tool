@@ -1,0 +1,35 @@
+☆★☆ Python「熱度圖繪製」程式 ★☆★
+
+※ 注意事項
+   本程式取用的模組套件，可能會因版本更新，而老舊語法無法正常運作。
+   使用前務必先測試，若有上述情況可至官方網站查看最新document。
+
+※ 需要的模組
+   (1) folium
+       ☆ 安裝方法: pip install folium
+       
+       python的「地圖可視化」工具(互動式地圖繪製)
+       Underpinned by: (1) JavaScript Library — "Leaflet"
+                       (2) Map services — "OpenStreetMap"
+
+       我們將用它完成熱度圖(熱圖/熱點圖, Heat Map)的繪製
+       
+ 
+   (2) pandas
+       ☆ 安裝方法: pip install folium
+       
+       python資料分析的open source library。
+       可接受 CSV 或 SQL資料庫 等格式的輸入資料，
+       並建立具有row, column的object，稱為DataFrame，
+       基於DataFrame做高效的資料處理和分析。
+
+※ 需要的資料
+   可參考:「地址轉經緯度_說明文件.txt」
+   因為(folium 套件)熱度圖繪製需要input data:「經緯度資訊」
+   我們必須將原始文件一列列的「地址」，
+   先轉為「經度、緯度」才能畫圖。
+
+   於是經過爬蟲 Google Maps，收集一批資料正確的經緯度後，
+   便可以輕易地用folium套件幫我們繪製出精美的熱度圖了！
+
+
