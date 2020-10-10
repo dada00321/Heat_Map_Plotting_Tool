@@ -1,4 +1,3 @@
-# Author: Dada Liu (劉永琦)
 from modules.excel_reader import get_address_list
 from modules.gmap_crawler import get_coordinate
 from modules.map_plotting_class_version import MapPlottingAssistant 
