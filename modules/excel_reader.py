@@ -1,4 +1,3 @@
-# Author: Dada Liu (劉永琦)
 import openpyxl
 import os
 
