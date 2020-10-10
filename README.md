@@ -29,7 +29,7 @@
               => 繪製熱度圖
 
     (2) modules: 程式模組
-        概述: 讓主程式呼叫、取用功能。
+        概述: 讓主程式呼叫、取用功能。 
         檔案: (I)   excel_reader.py
               (II)  gmap_crawler.py
               (III) map_plotting_class_version.py
