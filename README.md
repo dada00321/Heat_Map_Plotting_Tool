@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=MNOGP0ZOyUk&t=259s&ab_channel=ERR
         概述: 中繼資訊
         檔案: address_data.csv
         說明: 存放根據原始文件中「通訊地址」爬取到的
-             「經緯度」等中繼資訊，供熱度圖模取使用。
+             「經緯度」等中繼資訊，供熱度圖模組使用。
 
 (3) description docs
 ----------------------------------------
